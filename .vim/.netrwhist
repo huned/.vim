@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/huned/work/seq/syn/app/views/layouts'
+let g:netrw_dirhist_2='/Users/huned/work/seq/syn/app/controllers'
+let g:netrw_dirhist_3='/Users/huned/work/seq/syn/config'
+let g:netrw_dirhist_4='/Users/huned/work/seq/syn/public/stylesheets/sass'
+let g:netrw_dirhist_5='/Users/huned/work/seq/syn/public/javascripts'
+let g:netrw_dirhist_6='/Users/huned/work/seq/syn/spec/models'
+let g:netrw_dirhist_7='/Users/huned/work/seq/syn/spec/fixtures'
+let g:netrw_dirhist_8='/Users/huned/work/seq/syn/tmp'
+let g:netrw_dirhist_9='/Users/huned/Sites/deathwise-www/wp-content/themes/deathwise_v1'

@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/huned/work/loudsauce/loudsauce/app/stylesheets'
+let g:netrw_dirhist_2='/Users/huned/work/loudsauce/loudsauce/db/migrate'
+let g:netrw_dirhist_3='/Users/huned/work/loudsauce/loudsauce/db'
+let g:netrw_dirhist_4='/Users/huned/work/loudsauce/loudsauce/db/migrate'
+let g:netrw_dirhist_5='/Users/huned/work/loudsauce/loudsauce/app/models'
+let g:netrw_dirhist_6='/Users/huned/work/loudsauce/loudsauce/config/initializers'
+let g:netrw_dirhist_7='/Users/huned/work/loudsauce/loudsauce/db/migrate'
