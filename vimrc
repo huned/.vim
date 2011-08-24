@@ -113,3 +113,6 @@ map <F12> <Esc>:set suffixesadd=.rhtml<cr>gf
 
 set background=dark
 set viminfo=%,'50,\"100,n~/.viminfo
+
+au BufRead,BufNewFile *.scss set filetype=scss
+au BufRead,BufNewFile *.coffee set filetype=coffee
