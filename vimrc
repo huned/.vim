@@ -92,8 +92,6 @@ else
 
 endif " has("autocmd")
 
-" swivel project options
-
 " Optional, handy TagList settings
 
 :nnoremap <silent> <F8> :Tlist<CR>
