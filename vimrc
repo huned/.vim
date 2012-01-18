@@ -49,7 +49,7 @@ endif
 
 if has("gui_running")
   colorscheme ir_black
-  set lines=50 columns=80
+  set lines=45 columns=80
   set guifont=Inconsolata:h14
   set guioptions-=T
   set transparency=8
