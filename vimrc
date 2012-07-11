@@ -48,11 +48,12 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 if has("gui_running")
-  colorscheme ir_black
+  " colorscheme ir_black
+  colorscheme molokai
   set lines=45 columns=80
   set guifont=Inconsolata:h14
   set guioptions-=T
-  set transparency=8
+  set transparency=1
 endif
 
 " Setup for multibyte
@@ -114,5 +115,18 @@ set viminfo=%,'50,\"100,n~/.viminfo
 
 au BufRead,BufNewFile *.scss set filetype=scss
 au BufRead,BufNewFile *.coffee set filetype=coffee
+
+"code folding
+set foldmethod=indent
+set foldnestmax=10
+set foldlevel=1
+
+"display dots for whitespace
+set list listchars=trail:·
+
+"indent guides
+set shiftwidth=2
+autocmd VimEnter * :IndentGuidesEnable
+let g:indent_guides_guide_size=1
 
 call pathogen#infect()
