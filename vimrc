@@ -27,7 +27,7 @@ set history=50    " keep 50 lines of command line history
 set ruler    " show the cursor position all the time
 set showcmd    " display incomplete commands
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set ignorecase
 set smartcase
 set nohlsearch
@@ -50,8 +50,9 @@ endif
 if has("gui_running")
   " colorscheme ir_black
   colorscheme molokai
-  set lines=45 columns=80
-  set guifont=Inconsolata:h14
+  set lines=42 columns=80
+  "set guifont=Inconsolata:h14
+  set guifont=Monaco:h12
   set guioptions-=T
   set transparency=1
 endif
@@ -124,9 +125,8 @@ set foldlevel=1
 "display dots for whitespace
 set list listchars=trail:·
 
-"indent guides
-set shiftwidth=2
-autocmd VimEnter * :IndentGuidesEnable
-let g:indent_guides_guide_size=1
+"indent
+"autocmd VimEnter * :IndentGuidesEnable
+"let g:indent_guides_guide_size=1
 
 call pathogen#infect()
