@@ -26,13 +26,16 @@ set nobackup    " do not keep a backup file, use versions instead
 set history=50    " keep 50 lines of command line history
 set ruler    " show the cursor position all the time
 set showcmd    " display incomplete commands
-set expandtab
-set shiftwidth=2
 set ignorecase
 set smartcase
 set nohlsearch
 set dir=~/.vim/tmp
 
+set autoindent
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
@@ -118,12 +121,19 @@ au BufRead,BufNewFile *.scss set filetype=scss
 au BufRead,BufNewFile *.coffee set filetype=coffee
 
 "code folding
-set foldmethod=indent
-set foldnestmax=10
-set foldlevel=1
+"set foldmethod=indent
+"et foldnestmax=10
+"et foldlevel=1
 
 "display dots for whitespace
 set list listchars=trail:·
+
+" exclude using wildignore
+set wildignore+=*/tmp/*,*/.tmp/*,*.so,*.swp,*.zip,.DS_Store
+
+" additional excludes for delicious-web
+set wildignore+=*/wrap/*,*/node_modules/*,*/.git/*,*/.bundle/*,*/.vagrant/*,*/doc/*,*/vendor/*
+set wildignore+=*.png,*.gif,*.jpe?g,*.ico
 
 "indent
 "autocmd VimEnter * :IndentGuidesEnable
